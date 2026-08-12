@@ -1,9 +1,38 @@
+@font-face {
+    font-family: 'Gang of Three';
+    src: url('go3v2.ttf') format('truetype');
+}
+body{
+    background-color: black;
+    font-family: 'Gang of Three', sans-serif;
+    color: #95D600;
+}
+
 h1 {
-    background-color: #CCCCCC;
+    background-color: #7B1FA2;
     text-align: center;
+    height: 50px;
+    border: 10px solid #2E1A47;
+    padding-top: 20px;
+    margin-left: auto;
 }
 
 #banner{
     width: 100%;
-    height: ;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background-color: #7B1FA2;
+}
+
+.principal {
+    background-color: #7B1FA2;
+}
+
+p {
+    text-align: center;
 }
