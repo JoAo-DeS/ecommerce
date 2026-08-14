@@ -3,6 +3,7 @@
     src: url('go3v2.ttf') format('truetype');
 }
 body{
+    font-weight: 100;
     background-color: black;
     font-family: 'Gang of Three', sans-serif;
     color: #95D600;
@@ -26,13 +27,30 @@ h1 {
 }
 
 .beneficios {
-    background-color: #7B1FA2;
+    background: linear-gradient(to top, #561970, #7B1FA2);
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    
+    
 }
 
 .principal {
     background-color: #7B1FA2;
+    padding: 30px;
 }
 
 p {
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 13%;
+    margin-right: 15%;
 }
